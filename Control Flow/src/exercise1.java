@@ -12,11 +12,11 @@ public class exercise1 {
 				
 		if (sales >= 10000) {
 			comission=sales*0.3;
-		} else if (sales >= 5001|| sales <=9999) {
+		} else if (sales >= 5000|| sales <=9999) {
 			comission=sales*0.2;
 		} else if (sales >= 1001|| sales <=4999) {
 			comission=sales*0.1;
-		}else {
+		}else{
 			comission=0;
 		}
 		
