@@ -7,7 +7,7 @@ public class exercise1 {
 		
 		Scanner input = new Scanner(System.in);
 	
-		int sales = input.nextInt();
+		double sales = input.nextDouble();
 		double comission;
 				
 		if (sales >= 10000) {
