@@ -1,7 +1,7 @@
 
-//import scanner y math
+//import scanner 
 import java.util.Scanner;
-import java.lang.Math;
+
 
 public class Part2 {
 	public static void main(String[] args) {
@@ -34,6 +34,10 @@ public class Part2 {
 	private static void printSuma(int a, int b) {
 		System.out.println(a + b);
 	}//sum
+	
+	private static void printRes(int a, int b) {
+		System.out.println(a - b);
+	}//res
 
 	private static void printMult(int a, int b) {
 		System.out.println(a * b);
@@ -43,8 +47,4 @@ public class Part2 {
 		System.out.println(a / b);
 	}//div
 
-	private static void printRes(int a, int b) {
-		System.out.println(a - b);
-	}//res
-	
 }//Part2
